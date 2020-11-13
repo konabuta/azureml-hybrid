@@ -1,3 +1,9 @@
+# Azure Machine Learning
+.azureml
+dummy*
+data/*
+.vscode
+*/data/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
