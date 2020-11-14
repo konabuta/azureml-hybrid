@@ -92,6 +92,7 @@ if __name__ == "__main__":
                 run.log('loss', loss)  # log loss metric to AML
                 print(f'epoch={epoch + 1}, batch={i + 1:5}: loss {loss:.2f}')
                 running_loss = 0.0
-    train_loss = loss
-    run.log('train_locc', train_loss)
+    train_loss = loss.item()
+    run.log('train_loss', train_loss)
+    print(train_loss)
     print('Finished Training')
