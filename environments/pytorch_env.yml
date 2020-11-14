@@ -1,0 +1,17 @@
+name: pytorch_env
+channels:
+  - defaults
+  - pytorch
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - notebook
+  - ipykernel
+  - pip:
+    - torch
+    - torchvision
+    - matplotlib
+    - azureml-sdk
+    - azureml-sdk[notebooks]
