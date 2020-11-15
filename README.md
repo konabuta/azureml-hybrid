@@ -3,7 +3,6 @@
 ![ISSUE](https://img.shields.io/github/issues/konabuta/azureml-hybrid)
 ![Language](https://img.shields.io/badge/python-3.6-F9DC3E.svg?logo=python&style=flat)
 ![Language](https://img.shields.io/badge/Azure%20Machine%20Learning-blue.svg?logo=microsoft-azure&style=flat)
-![Twitter](https://img.shields.io/twitter/url?style=social)
 
 Azure Machine Learning を利用することで、オンプレミスの計算環境を生かしつつ、クラウドのメリットを享受することができます。
 
