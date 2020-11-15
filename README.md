@@ -1,4 +1,9 @@
 # Hybrid machine learning - Alpha Release
+![LICENSE](https://img.shields.io/github/license/konabuta/azureml-hybrid)
+![ISSUE](https://img.shields.io/github/issues/konabuta/azureml-hybrid)
+![Language](https://img.shields.io/badge/python-3.6-F9DC3E.svg?logo=python&style=flat)
+![Language](https://img.shields.io/badge/Azure%20Machine%20Learning-blue.svg?logo=microsoft-azure&style=flat)
+![Twitter](https://img.shields.io/twitter/url?style=social)
 
 Azure Machine Learning を利用することで、オンプレミスの計算環境を生かしつつ、クラウドのメリットを享受することができます。
 
@@ -21,3 +26,4 @@ Azure Machine Learning を利用することで、オンプレミスの計算環
 ## 参考情報
 - [Azure Machine Learning ドキュメント](https://docs.microsoft.com/ja-JP/azure/machine-learning/)
 - [Azure Machine Learning サンプル集 (公式)](https://github.com/Azure/MachineLearningNotebooks)
+- [Azure Machine Learning サンプル集 (Communiy)](https://github.com/Azure/azureml-examples)
