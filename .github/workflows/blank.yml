@@ -25,7 +25,7 @@ jobs:
     - name: azure login
       uses: azure/login@v1
       with:
-        creds: ${{secrets.AZ_AE_CREDS}}
+        creds: ${{secrets.AZURE_CREDENTIALS}}
     - name: install azmlcli
       #run: az extension add -s https://azurecliext.blob.core.windows.net/release/azure_cli_ml-1.15.0-py3-none-any.whl -y
       run: az extension add -n azure-cli-ml
