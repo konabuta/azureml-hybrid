@@ -12,7 +12,10 @@ on:
       - ".github/workflows/**"
 jobs:
   build:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        notebook: ['examples/3-aml-run.ipynb']
     steps:
     - name: check out repo
       uses: actions/checkout@v2
@@ -32,4 +35,4 @@ jobs:
     - name: attach to workspace
       run: az ml folder attach -w azureml-chuden -g chuden
     - name: run notebook
-      run: papermill examples/3-aml-run.ipynb -k python
+      run: papermill ${{matrix.notebook}} out.ipynb -k python
