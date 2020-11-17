@@ -14,4 +14,4 @@ dependencies:
     - torchvision
     - matplotlib
     - azureml-sdk
-    - azureml-sdk[notebooks]
+    - azureml-widgets
