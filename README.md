@@ -14,7 +14,7 @@ Azure Machine Learning を利用することで、オンプレミスの計算環
 |-----------------|----------------------------------|
 | 事前準備        | - [conda 環境の作成](examples/conda-setup.ipynb)<br/>- [Azure ML 設定](examples/azureml-config.ipynb) |
 | ローカル実行        | - [学習スクリプト実行](examples/local-pytorch-run.ipynb) |
-| リモート実行        | - [データアップロード](examples/1-data_upload.ipynb)<br/>- [Environment作成](examples/2-environment.ipynb)<br/>- [Azure ML 学習](examples/3-aml-run.ipynb)<br/>- [ハイパーパラメータチューニング](examples/4-hyperdrive.ipynb) |
+| リモート実行        | - [データアップロード](examples/1-data_upload.ipynb)<br/>- [Environment作成](examples/2-environment.ipynb)<br/>- [Azure ML 学習](examples/3-aml-run.ipynb)<br/>- [ハイパーパラメータチューニング](examples/4-hyperdrive.ipynb)<br/>- [機械学習パイプライン](examples/5-aml-pipeline.ipynb)|
 
 
 
